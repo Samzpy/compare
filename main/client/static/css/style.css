@@ -1,0 +1,409 @@
+  *{
+    margin: 0;
+    padding: 0;
+    /* font-family: "Microsoft Yahei"; */
+  }
+body{
+  background-color: rgb(244,239,235);
+  height: 100%;
+}
+
+  .active{
+      margin-right: 20px;
+      font-size: 18px;
+    }
+  .leftlist{
+    margin:  0 0 0 5px;
+  } 
+
+  .navbar-brand{
+    margin-left: 180px;
+    font-size: xx-large;
+  }
+  .navbar-nav{
+    margin-left:80%;
+  }
+  .head{
+    height: 58px;
+    font-size: x-large;
+  }
+  .bodyleft{
+    margin-top: 100px;
+  }
+  .bodyright{
+    margin-top: 110px;
+  }
+
+  .searchbt{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: right;
+    background-color: white;
+  }
+  .searchtitle{
+    font-size: x-large;
+    color:rgb(56,56,66);
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .phonetitle{
+    font-size: x-large;
+    color:rgb(56,56,66);
+    font-weight: 600;
+  }
+  
+  .phonedetailtop{
+    text-align:center ;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    pointer-events: none;
+  }
+
+  .phonedetail{
+    text-align:center ;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+ 
+
+  .phonedetailast{
+    text-align: center;
+    border: 0;
+  }
+  .allphonedetail{
+    text-align:center ;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+  .home{
+    margin-top: 20p;
+  }
+  .seconddetail{
+    /* text-align: ; */
+    font-size: 17px;
+    color:black
+  }
+  .acolor{
+    color: black;
+    margin: 3px;
+
+  }
+  .hdetail{
+    margin-bottom: 5px;
+  }
+
+
+  .acolor:hover {
+  transition: linear;    
+  }
+  .commodity{
+    margin-left: 8px;
+    margin-top: 3px;
+    border-color: silver ;
+    border-width: 2px;
+  }
+
+  .att{
+    height: 210px;
+    border-bottom: 2px solid silver;
+  }
+  .index_picture{
+    height: 180px;
+    width: 180px;
+    margin-left: 13.6px;
+  }
+  .indexleft{
+    text-align:center ;
+    padding-right: 50px;
+    color:rgb(56,56,66);
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .commodity_name{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height: 100px;
+    border-bottom:solid 2px #ccc ;
+    color: black;
+    text-align: center;
+    padding: 10px 20px 0px 20px;
+  }
+  .price{
+    font-weight: 700;
+    font-size: 17px;
+    float: right;
+    color: red;
+    /* width: 40px; */
+  }
+
+  .htmlname{
+    display: inline-block;
+    /* width: 95px; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .po{
+    margin: 10px 0 10px 0;
+  }
+  .info{
+    margin-top: 10px 0 10px 0;
+    width: 180px;
+    position:absolute 
+  }
+
+  .page{
+    margin-top: 30px;
+  }
+
+
+  .main-footer{
+    background-color:rgb(53, 58, 64) ;
+    color:#fff;
+    padding: 20px 0;
+  }
+
+  .card-text{
+    color: black;
+  }
+  .card-body{
+    padding: 0 0 0 0;
+    margin: 0 0 0 5px;
+  }
+  .olnumber{
+    padding: 0 0 0 18px;
+  }
+  .card-header{
+    border-bottom:none;
+  }
+
+
+.rightlist{
+  list-style:none
+}
+
+.commoditymain{
+max-height: 400px;
+}
+
+.bot{
+  padding:1px 0 ;
+  /* height: 10px; */
+  margin-top: 30px;
+}
+
+.detail_cominfo{
+  float: left;
+  margin: 50px 0 100px 150px;
+  width: 400px;
+}
+
+.detail_picture{
+  float: left;
+  width: 350px;
+  height: 350px;
+}
+.price_{
+  /* float: right; */
+  margin-top: 50px;
+  color:red;
+  font-size: xx-large;
+  font-weight: 600;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+.ll{
+  font-size: 30px;
+  margin: 29px;
+  font-weight: 700;
+  color: red;
+}
+.detail_comprice{
+  margin-top: 40px;
+}
+.com_track{
+  display: inline-block;
+  margin-top: 50px;
+  padding:11px 20px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  width:146px;
+  background-color:rgb(126,126,126) ;
+  color: white;
+}
+
+.com_track:hover{
+  /* border: 4px solid rgb(0, 0, 0); */
+  text-decoration:underline #333333;
+  border-radius: 8px;
+
+}
+.lines{
+  text-align: center;
+	font-size:15px;
+	font-weight:600;
+	color:#383737;
+	/* padding: 20px 30px; */
+	border-bottom: 8px solid #ccc;
+	/* margin-top: -13px; */
+}
+
+.detail_com{
+  height: 400px;
+}
+
+.product_main{
+  display: inline-block;
+  zoom: 1;
+  /* height: 110px; */
+
+}
+
+.product_list{
+  /* padding: 5px 0 0 0px; */
+  margin-top: 11px;
+
+}
+.product_list li{
+  border:2px solid #ccc;
+  border-radius: 10px;
+  /* margin-bottom: 5px; */
+  width: 980px;
+  height: 110px;
+  list-style-type:none
+}
+
+.mod_table{
+  margin-top: 10px;
+}
+
+.mod_separetor{
+  float: left;
+  padding-top: 11px;
+  margin: 21px 5px 0px 10px;
+  border-radius: 40px;
+  width: 60px;
+  border-right: 1px solid #ccc;
+  height: 60px;
+  text-align: center;
+  font-weight: 700;
+  color: #000;
+  display: inline-block;
+  background-color: rgb(152,148,148);
+}
+.mod_separetor>.botomlines{
+  font-size: x-large;
+}
+.botomlines:hover{
+  border-bottom: 2px solid #333;
+}
+
+.mod_name>.botomlines{
+  padding: 0 10px;
+}
+
+.mod_price>.botomlines{
+  font-size:x-large;
+  padding: 0 10px;
+}
+.mod_go>.botomlines{
+  font-size:large;
+  padding: 0 3px;
+  color:rgb(250, 149, 103)
+}
+/* .mod_pic{
+  height:106px;
+  width: 100px; 
+  float: left;
+  border-right: 1px solid #ccc;
+} */
+.mod_name{
+  display:flex;
+  color: rgb(91,91,91);
+  float: left;
+  width: 500px;
+  height: 108px;
+  text-align: center;
+  font-weight: 700;
+  align-items:center;
+  font-size:large;
+  justify-content:center;
+}
+
+/* .mod_from{
+  height:106px;
+  width: 120px; 
+  float: left;
+  border-right: 1px solid #ccc;
+} */
+
+.mod_pic>img{
+  border: none
+}
+
+.mod_price{
+  float: left;
+  padding-top: 35px;
+  width: 110px;
+  height: 108px;
+  text-align: center;
+  font-weight: 700;
+  color:  rgb(255, 69, 69);
+}
+
+.mall_name>.botomlines{
+  padding: 0 10px;
+}
+.mall_name{
+  font-size:large;
+  float: left;
+  padding-top: 40px;
+  width: 150px;
+  height: 108px;
+  text-align: center;
+  font-weight: 700;
+  color: rgb(255,69,69);
+}
+.mod_go{
+  width: 110px;
+  float: left;
+  padding-top: 40px;
+  height: 108px;
+  text-align: center;
+  font-weight: 700;
+  color: #494545;
+  padding-left: 25px;
+}
+
+.message_main{
+  margin-top:50px;
+  width: 900px;
+}
+
+.message_top{
+  font-size: 25px;
+  font-weight: 700; color: #000;
+  border-bottom: solid 1px #ccc;
+  width: 900px;
+}
+.message_detail{
+  list-style-type:none;width: 
+  900px;height: 100px; 
+  border-bottom:1px #ccc solid;
+}
+.message_time{
+  float: right;
+}
+
+
+
+.com-picture{
+  height: 180px;
+}  
+
+.col-1{
+  height: 745px;
+}

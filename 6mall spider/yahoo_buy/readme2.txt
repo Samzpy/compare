@@ -1,0 +1,1 @@
+docker run -p 0.0.0.0:8050:8050 --memory=6G --restart=always scrapinghub/splash

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/common.js"></script>
+        <!-- <script src="/static/js/url.js"></script> -->
+        <title>首頁</title>
+        <link rel="stylesheet" href="/static/css/style.css" />
+    </head>
+    <body>
+        <!-- head  start-->
+        <!-- navbar-expand-md 負責轉手機版的寬度, lg:991以下轉手機版, md:767以下轉手機版, sm:575以下轉手機版 -->
+        <!-- navbar-dark讓文字為白色, bg-dark負責背景顏色為暗底 -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top head">
+            <!--  這是 LOGO 文字或圖片  -->
+            <a class="navbar-brand url" href="/index"> 比價網</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <script>
+                username = window.localStorage.getItem("Pricecompare_user");
+                token = window.localStorage.getItem("Pricecompare_token");
+                document.write(makeindex(token));
+                loginOut();
+            </script>
+        </nav>
+        <!-- head  end-->
+
+        <!-- body  start-->
+
+        <!-- body left -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-2 bodyleft">
+                    <p class="searchtitle">全站搜索</p>
+                    <div class="list-group">
+                        <div class="form">
+                            <input class="form-control search" type="search" placeholder="請輸入搜索商品" aria-label="Search" />
+                            <button class="btn btn-outline-success searchbt">搜索</button>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left phonetitle" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            手機館
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body leftlist url">
+                                        <a href="/sort/mobile?brand=all" class="list-group-item list-group-item-action phonedetail">所有手機 </a>
+                                        <a href="/sort/mobile?brand=apple" class="list-group-item list-group-item-action phonedetail">APPLE </a>
+                                        <a href="/sort/mobile?brand=samsung" class="list-group-item list-group-item-action phonedetail">SAMSUNG</a>
+                                        <a href="/sort/mobile?brand=vivo" class="list-group-item list-group-item-action phonedetail">VIVO</a>
+                                        <a href="/sort/mobile?brand=sony" class="list-group-item list-group-item-action phonedetailast">SONY</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionTwo">
+                            <div class="card home">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left phonetitle" type="button" data-toggle="collapse" data-target="#Homeappliances" aria-expanded="true" aria-controls="collapseOne">
+                                            家電館
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="Homeappliances" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionTwo">
+                                    <div class="card-body leftlist url">
+                                        <p class="list-group-item list-group-item-action phonedetailtop url">視聽家電</p>
+                                        <div class="seconddetail">
+                                            <div class="hdetail url">
+                                                <a href="/sort/tv?brand=all" class="acolor">電視</a>
+                                            </div>
+                                            <div class="hdetail url">
+                                                <a href="/sort/sound?brand=all" class="acolor">音響</a>
+                                            </div>
+                                        </div>
+                                        <p class="list-group-item list-group-item-action phonedetailtop">生活家電</p>
+                                        <div class="seconddetail">
+                                            <div class="hdetail url">
+                                                <a href="/sort/fan?brand=all" class="acolor">電扇</a>
+                                            </div>
+                                            <div class="hdetail url">
+                                                <a href="/sort/refrigerator?brand=all" class="acolor">冰箱</a>
+                                            </div>
+                                        </div>
+                                        <p class="list-group-item list-group-item-action phonedetailtop">廚房家電</p>
+                                        <div class="seconddetail">
+                                            <div class="hdetail url">
+                                                <a href="/sort/oven?brand=all" class="acolor">烤箱</a>
+                                            </div>
+                                            <div class="hdetail url">
+                                                <a href="/sort/conditioningmachine?brand=all" class="acolor">調理機</a>
+                                            </div>
+                                        </div>
+                                        <p class="list-group-item list-group-item-action phonedetailtop">美容家電</p>
+                                        <div class="seconddetail">
+                                            <div class="hdetail url">
+                                                <a href="/sort/hairdryer?brand=all" class="acolor">吹風機</a>
+                                            </div>
+                                            <div class="hdetail url">
+                                                <a href="/sort/razor?brand=all" class="acolor">刮鬍刀</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--bodyright-->
+
+                <div class="col-9 bodyright">
+                    <h2 class="indexleft">首頁精選</h2>
+                    <div class="row" id="bb">
+                        <script>
+                            var html_body = "";
+                            var get_url = "http://127.0.0.1:8000/v1/commodity";
+                            $.ajax({
+                                type: "get",
+                                url: get_url,
+                                // beforeSend: function(request) {
+                                // request.setRequestHeader("Authorization", token);},
+                                success: function (result) {
+                                    if (200 == result.code) {
+                                        var commodity_list = result.commodity;
+                                        for (var commodity in commodity_list) {
+                                            var mall_list = commodity_list[commodity].mall_list;
+                                            html_body += '<div class="card commodity" style="width: 13.2rem;">';
+                                            // 這還沒寫
+                                            html_body += '<a href="http://127.0.0.1:5000/detail/' + commodity_list[commodity].com_id + '">';
+                                            html_body += '<div class="com-picture">';
+                                            html_body += "<img src=" + commodity_list[commodity].picture + ' class="card-img-top index_picture" alt="#">';
+                                            html_body += "</div>";
+                                            html_body += '<div class="commodity_name">' + commodity_list[commodity].com_name + "</div> ";
+                                            html_body += "</a>";
+                                            html_body += '<div class="card-body">';
+                                            html_body += '<ol class="olnumber">';
+                                            for (var mall in mall_list) {
+                                                html_body += '<a class="card-text"  target="_blank" href="' + mall_list[mall].mall_url + '">';
+                                                html_body += '<div  class="po">';
+                                                html_body += "<li>";
+                                                html_body += '<div class="info">';
+                                                html_body += '<span class="htmlname">' + mall_list[mall].mall_name + "</span>";
+                                                html_body += '<span class="price">$' + mall_list[mall].mall_price + "</span>";
+                                                html_body += "</div>";
+                                                html_body += "</li>";
+                                                html_body += "</div>";
+                                                html_body += "</a>";
+                                            }
+                                            html_body += "</ol>";
+                                            html_body += "</div>";
+                                            html_body += "</div>";
+                                        }
+                                        $("#bb").html(html_body);
+                                    }
+                                },
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid main-footer text-center bot">
+            &copy; copyright by Sam
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>

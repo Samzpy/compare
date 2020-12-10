@@ -1,0 +1,301 @@
+
+var p_datas = [
+{
+    "p_id": 84,
+    "p_link": '/zh-tw/product/84',
+    "p_name": "高速破壁冷熱調理機",
+    "p_number": "JYL-Y15M",
+    "p_currency": "NT",
+    "p_price": 16800.00,
+    "p_img_url": "/upload/product/Y15M  03.jpg",
+    "p_intro_text": "".replace(/\n/g, '<br>'),
+    "p_infos": {
+        0: {
+            "infos_cate_name": "基本資訊",
+            "infos": { 
+                "p_name": "高速破壁冷熱調理機",
+                "p_price": 16800.00,
+                "p_cate": "料理機",
+                "p_area": "台灣地區",
+                "p_number": "JYL-Y15M",
+            }
+        },
+                "info_type2": {
+            "infos_cate_name": "基本規格",
+            "infos": {
+                                info2: "23X19.5X47.5CM",
+                                info4: "6.1KG",
+                                info7: "30000/分鐘",
+                                info8: "1000W",
+                                info27: "110V",
+                                info28: "60HZ",
+                            }
+        },
+                "info_type3": {
+            "infos_cate_name": "產品特色",
+            "infos": {
+                                info10: "耐熱高硼矽玻璃",
+                                info26: "ABS樹脂",
+                            }
+        },
+                "info_type4": {
+            "infos_cate_name": "注意事項",
+            "infos": {
+                            }
+        },
+                "info_type6": {
+            "infos_cate_name": "其他事項",
+            "infos": {
+                            }
+        },
+            }
+},
+{
+    "p_id": 37,
+    "p_link": '/zh-tw/product/37',
+    "p_name": "全營養精萃調理機",
+    "p_number": "JYL-Y8M",
+    "p_currency": "NT",
+    "p_price": 15900.00,
+    "p_img_url": "/upload/product/4bf0ca2b0fe48b932c8d75e2ae98d03ab548511b.jpg",
+    "p_intro_text": "".replace(/\n/g, '<br>'),
+    "p_infos": {
+        0: {
+            "infos_cate_name": "基本資訊",
+            "infos": { 
+                "p_name": "全營養精萃調理機",
+                "p_price": 15900.00,
+                "p_cate": "料理機",
+                "p_area": "台灣地區",
+                "p_number": "JYL-Y8M",
+            }
+        },
+                "info_type2": {
+            "infos_cate_name": "基本規格",
+            "infos": {
+                                info3: "2500ML",
+                                info7: "28000-30000RPM",
+                                info8: "1000W",
+                                info25: "47X29.5X34.5CM",
+                                info27: "AC110V",
+                                info28: "60HZ",
+                            }
+        },
+                "info_type3": {
+            "infos_cate_name": "產品特色",
+            "infos": {
+                                info9: "攪拌杯 tritan+杯蓋pc+刀片sus",
+                            }
+        },
+                "info_type4": {
+            "infos_cate_name": "注意事項",
+            "infos": {
+                            }
+        },
+                "info_type6": {
+            "infos_cate_name": "其他事項",
+            "infos": {
+                            }
+        },
+            }
+},
+{
+    "p_id": 36,
+    "p_link": '/zh-tw/product/36',
+    "p_name": "魔廚Baby料理棒",
+    "p_number": "JYL-FM901",
+    "p_currency": "NT",
+    "p_price": 3290.00,
+    "p_img_url": "/upload/product/25b894a97f1b21d856dda6820a81da076731eddf.jpg",
+    "p_intro_text": "".replace(/\n/g, '<br>'),
+    "p_infos": {
+        0: {
+            "infos_cate_name": "基本資訊",
+            "infos": { 
+                "p_name": "魔廚Baby料理棒",
+                "p_price": 3290.00,
+                "p_cate": "料理機",
+                "p_area": "台灣地區",
+                "p_number": "JYL-FM901",
+            }
+        },
+                "info_type2": {
+            "infos_cate_name": "基本規格",
+            "infos": {
+                                info3: "600ML&500ML",
+                                info7: "13000RPM",
+                                info8: "300W",
+                                info27: "AC110V",
+                                info28: "60HZ",
+                            }
+        },
+                "info_type3": {
+            "infos_cate_name": "產品特色",
+            "infos": {
+                                info9: "食品級玻璃材質＋不鏽鋼打蛋網",
+                                info32: "baby副食、榨汁、攪拌、奶昔、打蛋、絞肉",
+                            }
+        },
+                "info_type4": {
+            "infos_cate_name": "注意事項",
+            "infos": {
+                            }
+        },
+                "info_type6": {
+            "infos_cate_name": "其他事項",
+            "infos": {
+                                info35: "中國",
+                            }
+        },
+            }
+},
+{
+    "p_id": 35,
+    "p_link": '/zh-tw/product/35',
+    "p_name": "魔廚料理棒",
+    "p_number": "JYL-FM810",
+    "p_currency": "NT",
+    "p_price": 2990.00,
+    "p_img_url": "/upload/product/86021f6f4600a3c7cd18c98fc0e43b6c99542df7.jpg",
+    "p_intro_text": "".replace(/\n/g, '<br>'),
+    "p_infos": {
+        0: {
+            "infos_cate_name": "基本資訊",
+            "infos": { 
+                "p_name": "魔廚料理棒",
+                "p_price": 2990.00,
+                "p_cate": "料理機",
+                "p_area": "台灣地區",
+                "p_number": "JYL-FM810",
+            }
+        },
+                "info_type2": {
+            "infos_cate_name": "基本規格",
+            "infos": {
+                                info2: "23x31x15CM",
+                                info7: "12000-15000RPM",
+                            }
+        },
+                "info_type3": {
+            "infos_cate_name": "產品特色",
+            "infos": {
+                            }
+        },
+                "info_type4": {
+            "infos_cate_name": "注意事項",
+            "infos": {
+                            }
+        },
+                "info_type6": {
+            "infos_cate_name": "其他事項",
+            "infos": {
+                            }
+        },
+            }
+},
+{
+    "p_id": 34,
+    "p_link": '/zh-tw/product/34',
+    "p_name": "時尚隨行杯",
+    "p_number": "JYL-C18DM",
+    "p_currency": "NT",
+    "p_price": 1990.00,
+    "p_img_url": "/upload/product/a74853920970aa682d3cb5eeb3f2994ef57dfaa8.png",
+    "p_intro_text": "".replace(/\n/g, '<br>'),
+    "p_infos": {
+        0: {
+            "infos_cate_name": "基本資訊",
+            "infos": { 
+                "p_name": "時尚隨行杯",
+                "p_price": 1990.00,
+                "p_cate": "料理機",
+                "p_area": "台灣地區",
+                "p_number": "JYL-C18DM",
+            }
+        },
+                "info_type2": {
+            "infos_cate_name": "基本規格",
+            "infos": {
+                                info3: "600ML(藍)、400ML(粉)",
+                                info7: "23000RPM",
+                                info8: "250W",
+                                info27: "AC110V",
+                                info28: "60HZ",
+                            }
+        },
+                "info_type3": {
+            "infos_cate_name": "產品特色",
+            "infos": {
+                                info32: "碎冰、果汁",
+                            }
+        },
+                "info_type4": {
+            "infos_cate_name": "注意事項",
+            "infos": {
+                            }
+        },
+                "info_type6": {
+            "infos_cate_name": "其他事項",
+            "infos": {
+                            }
+        },
+            }
+},
+{
+    "p_id": 33,
+    "p_link": '/zh-tw/product/33',
+    "p_name": "廚神料理機",
+    "p_number": "JYL-C03VM",
+    "p_currency": "NT",
+    "p_price": 3990.00,
+    "p_img_url": "/upload/product/ec00327929b0e7b7fc31d24a0c58346684d311dc.png",
+    "p_intro_text": "".replace(/\n/g, '<br>'),
+    "p_infos": {
+        0: {
+            "infos_cate_name": "基本資訊",
+            "infos": { 
+                "p_name": "廚神料理機",
+                "p_price": 3990.00,
+                "p_cate": "料理機",
+                "p_area": "台灣地區",
+                "p_number": "JYL-C03VM",
+            }
+        },
+                "info_type2": {
+            "infos_cate_name": "基本規格",
+            "infos": {
+                                info2: "44.4X18.8X28.1CM",
+                                info3: "1300ML",
+                                info7: "18000-23000RPM/分",
+                                info8: "300W",
+                                info17: "1年",
+                                info27: "AC110V",
+                                info28: "60HZ",
+                            }
+        },
+                "info_type3": {
+            "infos_cate_name": "產品特色",
+            "infos": {
+                            }
+        },
+                "info_type4": {
+            "infos_cate_name": "注意事項",
+            "infos": {
+                            }
+        },
+                "info_type6": {
+            "infos_cate_name": "其他事項",
+            "infos": {
+                                info35: "中國",
+                            }
+        },
+            }
+},
+];
+
+var list_datas = localStorage.getItem("list-dataszh-tw");
+list_datas = (list_datas === null)?[]:JSON.parse(list_datas);
+var vue_data = {
+    list_datas: list_datas,
+    p_datas: p_datas,
+}
